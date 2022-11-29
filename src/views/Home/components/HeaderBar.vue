@@ -26,7 +26,7 @@
     </nav>
     <div class="user">
       <img
-        src="	https://mocossi.com/static/media/notification-icon.71a4f7f042fc68eb72592efbb0e176a4.svg"
+        src="https://mocossi.com/static/media/notification-icon.71a4f7f042fc68eb72592efbb0e176a4.svg"
         alt=""
       />
       <div class="button">
