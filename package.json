@@ -2,6 +2,7 @@
   "name": "yuntong-test",
   "version": "0.0.0",
   "private": true,
+  "main": "./dist/index.html",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
