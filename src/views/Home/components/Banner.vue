@@ -4,6 +4,7 @@
       src="https://mocossi.com/static/media/mocossi_final_v2.9371ce9698661d644e3e.mp4"
       autoplay
       loop
+      muted
       class="video"
     ></video>
     <div class="overlay"></div>
