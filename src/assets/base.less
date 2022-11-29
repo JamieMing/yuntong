@@ -59,3 +59,37 @@
       2px -1px 0 #825b0d, 2px 0 0 #825b0d, 2px 1px 0 #825b0d, 2px 2px 0 #825b0d;
   }
 }
+
+.navigations {
+  width: 180px;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  .left {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(https://mocossi.com/static/media/arrow.3c9a78fa23038893411a45b1470da15b.svg);
+    background-size: cover;
+    cursor: pointer;
+    transform: rotate(180deg);
+    &:hover {
+      background-image: url(https://mocossi.com/static/media/hov_arrow.38428c71269c0b10e0d875bbc67ab17b.svg);
+    }
+  }
+  .right {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(https://mocossi.com/static/media/arrow.3c9a78fa23038893411a45b1470da15b.svg);
+    background-size: cover;
+    cursor: pointer;
+    &:hover {
+      background-image: url(https://mocossi.com/static/media/hov_arrow.38428c71269c0b10e0d875bbc67ab17b.svg);
+    }
+  }
+}
